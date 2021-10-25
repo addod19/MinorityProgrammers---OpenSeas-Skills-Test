@@ -1,17 +1,17 @@
 .banner {
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
-  padding: 2rem 1rem;
-  text-align: center;
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #FFFFFF;
+  margin-top: 16em;
+  padding: 2rem 2rem;
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
 }
 .banner h1 {
   font-size: 2.5rem;
+  margin-bottom: 0.5em;
 }
 
 .banner p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
