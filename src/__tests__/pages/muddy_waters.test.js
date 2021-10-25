@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Muddy_Waters from '../../pages/Muddy_Waters';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/NFT Market/i);
+  render(<Muddy_Waters />);
+  const linkElement = screen.getByText(/Muddy_Waters/i);
   expect(linkElement).toBeInTheDocument();
 });
