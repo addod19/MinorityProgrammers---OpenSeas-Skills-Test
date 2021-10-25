@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(73.25deg, #000000 7.24%, #4D4B4B 108.45%);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.header,
+.link-deco {
+  color: #FFFFFF;
+}
+
+.music-swap-logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.top-right-pos,
+.music-swap-logo {
+  margin-top: 40px;
+}
+
+.top-right-pos,
+.nav-links {
+  display: flex;
+}
+
+.nav-links {
+  flex-direction: row;
+}
+
+.links {
+  list-style: none;
+}
+
+.link-deco {
+  text-decoration: none;
+}

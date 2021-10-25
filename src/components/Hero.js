@@ -1,11 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Hero = () => {
+import '../assets/css/Hero.css';
+
+const Hero = ({children}) => {
   return ( 
-    <>
-      <h1>Hero</h1>
-    </>
+    <div className='hero'>
+      {children}
+    </div>
   );
+}
+
+Hero.defaultProps = {
+    hero: 'defaultHero',
+};
+
+Hero.propTypes = {
+    hero: PropTypes.string
 }
 
 export default Hero;

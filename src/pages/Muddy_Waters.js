@@ -1,10 +1,14 @@
 import React from 'react';
 
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
 
 const Muddy_Waters = () => {
   return ( 
     <>
-      <h1>Muddy_Waters</h1>
+      <Hero>
+        <Banner title='Muddy Waters' subtitle='Verified NFT market placefor music artists.' />
+      </Hero>
     </>
   );
 }
