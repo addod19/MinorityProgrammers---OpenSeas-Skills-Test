@@ -1,0 +1,66 @@
+.collectible {
+  width: auto;
+  height: 200px;
+}
+
+.container {
+  width: 300px;
+  height: 220px;
+  background: #27292C;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-row {
+  height: 120px;
+  border-radius: 17px;
+}
+
+.second-row {
+  position: relative;
+  top: -20px;
+}
+
+.title-row {
+  position: relative;
+  left: 130px;
+}
+.price-tag {
+  position: relative;
+  left: 240px;
+  top: -15px;
+  width: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+
+  color: #FFFFFF;
+  background: #00CC9B;
+}
+
+.time-cash {
+  display: flex;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.cash-text {
+  position: relative;
+  text-align: right;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+
+.time-text {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

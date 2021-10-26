@@ -1,15 +1,15 @@
 .bg {
   background: linear-gradient(73.25deg, #000 7.24%, #4d4b4b 108.45%);
+  width: 100%;
+  text-overflow: hidden;
 }
 
 .top-collections {
   position: absolute;
   width: 90%;
-  height: 400px;
+  text-overflow: hidden;
   height: auto;
   margin-left: 5%;
-  overflow-x: scroll;
-  overflow-y: hidden;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 9px;

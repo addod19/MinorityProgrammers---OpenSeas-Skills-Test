@@ -4,8 +4,9 @@
   right: 0;
   bottom: 0;
   width: 90%;
-  height: 300px;
+  height: 350px;
   margin-top: 25em;
+  margin-bottom: 20px;
   margin-left: 5%;
 
 
@@ -64,4 +65,11 @@ h3 {
 .generative,
 .upcoming {
   list-style: none;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20px;
+  margin-top: 20px;
 }
