@@ -1,28 +1,24 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import '../assets/css/App.css';
 import MuddyWaters from '../pages/MuddyWaters';
 import MusicHeroes from '../pages/MusicHeroes';
 import Collectibles from '../pages/Collectibles';
+import Error from './Error';
 
 import Header from './Header';
 
 const App = () => (
-  <BrowserRouter>
+  <>
     <Header />
     <Switch>
-      <Route exact path="/:id">
-        <Collectibles />
-      </Route>
-      <Route exact path="/music_heroes">
-        <MusicHeroes />
-      </Route>
-      <Route exact path="/muddy_waters">
-        <MuddyWaters />
-      </Route>
+      <Route exact path="/" component={Collectibles} />
+      <Route path="/music_heroes" component={MusicHeroes} />
+      <Route path="/muddy_waters" component={MuddyWaters} />
+      <Route component={Error} />
     </Switch>
-  </BrowserRouter>
+  </>
 );
 
 export default App;
