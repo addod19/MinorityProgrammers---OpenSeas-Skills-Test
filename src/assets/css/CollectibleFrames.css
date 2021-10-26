@@ -8,12 +8,10 @@
   margin-top: 25em;
   margin-bottom: 20px;
   margin-left: 5%;
-
-
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 9px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .row2 {
@@ -29,20 +27,20 @@ h3 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
+
 .filter {
   position: relative;
   margin-right: 80px;
   width: 100px;
-  
 }
 
 .text-color {
-  color: #00CC9B;
-  background: #000000;
+  color: #00cc9b;
+  background: #000;
 }
 
 .divider {
-  background: #ffffff;
+  background: #fff;
   width: 95%;
   margin-left: 1.8%;
 }
@@ -50,13 +48,13 @@ h3 {
 .list {
   width: 400px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   position: relative;
   right: 60px;
 }
 
 .upcoming {
-  color: #00CC9B;
+  color: #00cc9b;
   text-decoration: underline;
 }
 

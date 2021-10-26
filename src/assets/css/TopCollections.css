@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
 .bg {
   background: linear-gradient(73.25deg, #000 7.24%, #4d4b4b 108.45%);
   width: 100%;
-  text-overflow: hidden;
 }
 
 .top-collections {
   position: absolute;
   width: 90%;
-  text-overflow: hidden;
+  text-overflow: ellipsis;
   height: auto;
   margin-left: 5%;
   border: 1px solid #c4c4c4;
@@ -18,40 +19,37 @@
   margin-top: 1em;
 }
 
-.main-collections {
-
-}
-
 .collections-view {
   display: flex;
   width: 100%;
 }
+
 .top-collection-title {
-  color: #FFFFFF;
+  color: #fff;
   font-size: 28px;
   margin-left: 20px;
   margin-top: 18px;
 }
 
 .view-all {
-  color: #00CC9B;
+  color: #00cc9b;
   padding: 15px;
   text-decoration: none;
 }
+
 .view {
   position: relative;
   width: 86px;
   height: 35px;
   right: 50px;
   top: 15px;
-  font-family: 'Poppins';
+  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 21px;
-
   text-align: center;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 41px;
 }
 
@@ -61,7 +59,7 @@
 }
 
 .white {
-  background: #FFFFFF;
+  background: #fff;
   width: 60%;
   margin-left: 40%;
   margin-top: -20px;
