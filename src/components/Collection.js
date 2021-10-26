@@ -11,6 +11,7 @@ const Collection = ({
       <h3 className="myTil">{header}</h3>
       <img src={image} alt="text" className="img" />
     </div>
+    <hr className="white" />
     <div className="row2">
       <div className="floor-price">
         <h4 className="flor">Floor Price</h4>

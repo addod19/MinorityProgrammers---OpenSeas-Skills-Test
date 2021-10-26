@@ -5,11 +5,64 @@
 .top-collections {
   position: absolute;
   width: 90%;
-  height: 269px;
+  height: 400px;
+  height: auto;
   margin-left: 5%;
   overflow-x: scroll;
+  overflow-y: hidden;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 9px;
   display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.main-collections {
+
+}
+
+.collections-view {
+  display: flex;
+  width: 100%;
+}
+.top-collection-title {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+.view-all {
+  color: #00CC9B;
+  padding: 15px;
+  text-decoration: none;
+}
+.view {
+  position: relative;
+  width: 86px;
+  height: 35px;
+  right: 50px;
+  top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 41px;
+}
+
+.collections-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.white {
+  background: #FFFFFF;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: -20px;
 }

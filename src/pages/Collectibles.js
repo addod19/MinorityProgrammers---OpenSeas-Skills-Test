@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import TopCollections from '../components/TopCollections';
 import '../assets/css/Collectibles.css';
+import CollectibleFrames from '../components/CollectibleFrames';
 
 const Collectibles = () => (
   <section className="collectibles">
@@ -11,6 +12,7 @@ const Collectibles = () => (
       <Banner title="Collectibles" subtitle="Verified NFT market placefor music artists." />
     </Hero>
     <TopCollections />
+    <CollectibleFrames />
   </section>
 );
 

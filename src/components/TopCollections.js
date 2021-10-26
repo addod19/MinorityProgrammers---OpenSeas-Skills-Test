@@ -12,9 +12,17 @@ const third = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAACPCAYAAAC/KVY
 const TopCollections = () => (
   <section className="bg">
     <div className="top-collections">
-      <Collection image={MusicHeroes} header="Music Heroes" floorPrice={500} volPrice={24000000} />
-      <Collection image={shinnyWrappers} header="Shinny Wrappers" floorPrice={1000} volPrice={24030012} />
-      <Collection image={third} />
+      <div className="collections-view">
+        <h3 className="top-collection-title">Top Collections</h3>
+        <div className="view">
+          <a href="/view_all" className="view-all">View All</a>
+        </div>
+      </div>
+      <div className="collections-container">
+        <Collection image={MusicHeroes} header="Music Heroes" floorPrice={500} volPrice={24000000} />
+        <Collection image={shinnyWrappers} header="Shinny Wrappers" floorPrice={1000} volPrice={24030012} />
+        <Collection image={third} />
+      </div>
     </div>
   </section>
 );

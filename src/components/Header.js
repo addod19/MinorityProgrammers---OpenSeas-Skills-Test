@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../assets/css/Header.css';
+import logo from '../assets/images/logo.png';
 
 const Header = () => (
   <header className="header">
-    <span className="music-swap-logo">Music Swap Logo</span>
+    <img src={logo} className="logo" alt="logo" />
     <div className="top-right-pos">
-      <span>MPA logo</span>
       <nav className="menu">
         <ul className="nav-links">
           <li className="links">
