@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import Muddy_Waters from '../../pages/Muddy_Waters';
+import MuddyWaters from '../../pages/MuddyWaters';
 
 test('renders learn react link', () => {
-  render(<Muddy_Waters />);
+  render(<MuddyWaters />);
   const linkElement = screen.getByText(/Muddy_Waters/i);
   expect(linkElement).toBeInTheDocument();
 });

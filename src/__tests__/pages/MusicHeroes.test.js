@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import Music_Heroes from '../../pages/Music_Heroes';
+import MusicHeroes from '../../pages/MusicHeroes';
 
 test('renders learn react link', () => {
-  render(<Music_Heroes />);
+  render(<MusicHeroes />);
   const linkElement = screen.getByText(/Music_Heroes/i);
   expect(linkElement).toBeInTheDocument();
 });

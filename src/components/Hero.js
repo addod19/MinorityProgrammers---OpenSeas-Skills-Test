@@ -3,20 +3,18 @@ import PropTypes from 'prop-types';
 
 import '../assets/css/Hero.css';
 
-const Hero = ({children}) => {
-  return ( 
-    <div className='hero'>
-      {children}
-    </div>
-  );
-}
+const Hero = ({ children }) => (
+  <div className="hero">
+    {children}
+  </div>
+);
 
 Hero.defaultProps = {
-    hero: 'defaultHero',
+  children: 'defaultHero',
 };
 
 Hero.propTypes = {
-    hero: PropTypes.string
-}
+  children: PropTypes.string,
+};
 
 export default Hero;
