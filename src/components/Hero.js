@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../assets/css/Hero.css';
-
-const Hero = ({ children }) => (
-  <div className="hero">
+const Hero = ({ children, style }) => (
+  <div className={style}>
     {children}
   </div>
 );
@@ -15,6 +13,7 @@ Hero.defaultProps = {
 
 Hero.propTypes = {
   children: PropTypes.string,
+  style: PropTypes.string.isRequired,
 };
 
 export default Hero;

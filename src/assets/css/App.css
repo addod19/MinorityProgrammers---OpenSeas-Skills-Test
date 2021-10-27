@@ -2,3 +2,8 @@
   background: #000;
   border: 1px  solid red;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}

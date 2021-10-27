@@ -10,7 +10,7 @@ import Error from './Error';
 import Header from './Header';
 
 const App = () => (
-  <>
+  <section className="app">
     <Header />
     <Switch>
       <Route exact path="/" component={Collectibles} />
@@ -18,7 +18,7 @@ const App = () => (
       <Route path="/muddy_waters" component={MuddyWaters} />
       <Route component={Error} />
     </Switch>
-  </>
+  </section>
 );
 
 export default App;

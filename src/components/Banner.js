@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import '../assets/css/Banner.css';
 
 const Banner = ({ title, subtitle }) => (
-  <div className="banner">
+  <section className="banner">
     <h1>{title}</h1>
     <p>{subtitle}</p>
-  </div>
+  </section>
 );
 
 Banner.propTypes = {

@@ -8,7 +8,7 @@ import CollectibleFrames from '../components/CollectibleFrames';
 
 const Collectibles = () => (
   <section className="collectibles">
-    <Hero>
+    <Hero className="hero">
       <Banner title="Collectibles" subtitle="Verified NFT market placefor music artists." />
     </Hero>
     <TopCollections />
