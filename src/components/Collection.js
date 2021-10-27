@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 import '../assets/css/Collection.css';
 
 const Collection = ({
-  image, header, floorPrice, volPrice,
+  header, floorPrice, volPrice,
 }) => (
   <section className="collection">
     <div className="row1">
       <h3 className="myTil">{header}</h3>
-      <img src={image} alt="text" className="img" />
+      {/* <img src={image} alt="text" className="img" /> */}
     </div>
     <hr className="white" />
     <div className="row2">
@@ -32,7 +32,7 @@ const Collection = ({
 );
 
 Collection.propTypes = {
-  image: PropTypes.string.isRequired,
+  // image: PropTypes.string.isRequired,
   header: PropTypes.string.isRequired,
   floorPrice: PropTypes.string.isRequired,
   volPrice: PropTypes.string.isRequired,

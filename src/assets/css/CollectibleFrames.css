@@ -5,7 +5,7 @@
   bottom: 0;
   width: 90%;
   height: 350px;
-  margin-top: 25em;
+  top: 55em;
   margin-bottom: 20px;
   margin-left: 5%;
   border: 1px solid #c4c4c4;
@@ -43,6 +43,8 @@ h3 {
   background: #fff;
   width: 95%;
   margin-left: 1.8%;
+  position: relative;
+  top: 0;
 }
 
 .list {
@@ -70,4 +72,7 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   margin-left: 20px;
   margin-top: 20px;
+
+  position: relative;
+  top: 0;
 }

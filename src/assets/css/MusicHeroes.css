@@ -1,13 +1,3 @@
-.music-heroes-section {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  border: 1px solid red;
-
-  display: flex;
-
-}
-
 .music-heroes {
   border: 1px solid white;
   position: relative;
