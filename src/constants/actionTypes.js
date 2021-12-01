@@ -1,0 +1,5 @@
+export const GET_ASSETS = 'GET_ASSETS';
+export const GET_ASSET = 'GET_ASSET';
+export const CHANGE_FILTER = 'CHANGE_FILTER';
+export const GET_COLLECTIONS = 'GET_COLLECTIONS';
+export const GET_COLLECTION = 'GET_COLLECTION';

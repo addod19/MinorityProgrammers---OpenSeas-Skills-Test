@@ -1,29 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-
-import { ChainId, DAppProvider } from '@usedapp/core';
-// use these in the component you want to transact , useEtherBalance, useEthers
-// import { formatEther } from '@ethersproject/units';
+import { Provider } from 'react-redux';
+import './index.css';
+import App from './App';
+import store from './redux/store';
 import reportWebVitals from './reportWebVitals';
-import './assets/css/index.css';
-import App from './components/App';
-
-const config = {
-  readOnlyChainId: ChainId.Mainnet,
-  readOnlyUrls: {
-    [ChainId.Mainnet]: 'https://mainnet.infura.io/v3/62687d1a985d4508b2b7a24827551934',
-  },
-};
 
 ReactDOM.render(
-  <DAppProvider config={config}>
+  <Provider store={store}>
     <React.StrictMode>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <App />
     </React.StrictMode>
-  </DAppProvider>,
+  </Provider>,
   document.getElementById('root'),
 );
 
